@@ -139,19 +139,7 @@ vibetrackosint/
 └── README.md
 ```
 
-## 🎨 Design Palette
 
-| Color | Hex | Use |
-|---|---|---|
-| ![](https://img.shields.io/badge/-%20-0D1117?style=flat-square) Midnight | `#0D1117` | Background |
-| ![](https://img.shields.io/badge/-%20-00E5FF?style=flat-square) Cyber Cyan | `#00E5FF` | Primary |
-| ![](https://img.shields.io/badge/-%20-C026D3?style=flat-square) Neon Purple | `#C026D3` | Accent |
-| ![](https://img.shields.io/badge/-%20-39FF14?style=flat-square) Terminal Green | `#39FF14` | Success |
-| ![](https://img.shields.io/badge/-%20-FFBD2E?style=flat-square) Warning Amber | `#FFBD2E` | Warnings |
-
-<img src="assets/divider.svg" width="100%" alt=""/>
-
-## ❓ FAQ
 
 <details>
 <summary><b>Does it work without Rich installed?</b></summary>
@@ -191,9 +179,6 @@ Approximate only (usually city or region level). Never use it to identify a pers
 - The TCP checker is a basic connectivity check, **not** a vulnerability scanner.
 - Exported reports may contain sensitive data. Review them before sharing.
 
-## 🤝 Contributing
-
-Bug reports and pull requests are welcome. Keep the tool compatible with Python 3 and Termux. Do not add credential guessing, authentication bypass, exploitation, or stealth features. See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## 📜 License
 
