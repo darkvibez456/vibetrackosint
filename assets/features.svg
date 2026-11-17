@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560">
+  <defs>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#111827"/><stop offset="1" stop-color="#1A1440"/></linearGradient>
+    <linearGradient id="ac" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#00E5FF"/><stop offset="1" stop-color="#C026D3"/></linearGradient>
+  </defs>
+  <rect width="1200" height="560" fill="#0D1117"/>
+  <style>
+    .t{font:700 24px Segoe UI,Helvetica,Arial,sans-serif;fill:#E6EDF3}
+    .d{font:16px Segoe UI,Helvetica,Arial,sans-serif;fill:#9AA7B8}
+    .n{font:700 14px Consolas,Menlo,monospace;fill:#00E5FF}
+    .i{fill:none;stroke:url(#ac);stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
+  </style>
+
+  <!-- row 1 -->
+  <g transform="translate(20,20)"><rect width="370" height="250" rx="16" fill="url(#card)" stroke="#00E5FF" stroke-opacity="0.35"/>
+    <text x="30" y="40" class="n">01 / INTEL</text>
+    <g transform="translate(30,60)"><circle class="i" cx="25" cy="25" r="22"/><ellipse class="i" cx="25" cy="25" rx="9" ry="22"/><path class="i" d="M3 25H47"/></g>
+    <text x="30" y="150" class="t">IP Intelligence</text>
+    <text x="30" y="182" class="d">Public IP lookup with approximate</text><text x="30" y="204" class="d">geolocation and network details.</text></g>
+
+  <g transform="translate(415,20)"><rect width="370" height="250" rx="16" fill="url(#card)" stroke="#7C8CFF" stroke-opacity="0.4"/>
+    <text x="30" y="40" class="n">02 / DNS</text>
+    <g transform="translate(30,60)"><circle class="i" cx="10" cy="25" r="7"/><circle class="i" cx="42" cy="9" r="7"/><circle class="i" cx="42" cy="41" r="7"/><path class="i" d="M16 22L36 11M16 28L36 39"/></g>
+    <text x="30" y="150" class="t">DNS Toolkit</text>
+    <text x="30" y="182" class="d">A, AAAA, MX, NS, TXT, CNAME</text><text x="30" y="204" class="d">records plus DNS diagnostics.</text></g>
+
+  <g transform="translate(810,20)"><rect width="370" height="250" rx="16" fill="url(#card)" stroke="#C026D3" stroke-opacity="0.45"/>
+    <text x="30" y="40" class="n">03 / TLS</text>
+    <g transform="translate(30,60)"><rect class="i" x="6" y="22" width="38" height="26" rx="5"/><path class="i" d="M14 22V15a11 11 0 0 1 22 0v7"/><circle class="i" cx="25" cy="35" r="3"/></g>
+    <text x="30" y="150" class="t">TLS Certificate</text>
+    <text x="30" y="182" class="d">Certificate details, issuer and</text><text x="30" y="204" class="d">expiry check for any host.</text></g>
+
+  <!-- row 2 -->
+  <g transform="translate(20,290)"><rect width="370" height="250" rx="16" fill="url(#card)" stroke="#39FF14" stroke-opacity="0.35"/>
+    <text x="30" y="40" class="n">04 / WEB</text>
+    <g transform="translate(30,60)"><path class="i" d="M25 3L45 11V26C45 37 36 45 25 48C14 45 5 37 5 26V11Z"/><path class="i" d="M16 25L23 32L35 19"/></g>
+    <text x="30" y="150" class="t">Security Headers</text>
+    <text x="30" y="182" class="d">Audit HSTS, CSP, X-Frame-Options</text><text x="30" y="204" class="d">and other response headers.</text></g>
+
+  <g transform="translate(415,290)"><rect width="370" height="250" rx="16" fill="url(#card)" stroke="#00E5FF" stroke-opacity="0.35"/>
+    <text x="30" y="40" class="n">05 / NET</text>
+    <g transform="translate(30,60)"><rect class="i" x="4" y="6" width="42" height="14" rx="3"/><rect class="i" x="4" y="30" width="42" height="14" rx="3"/><path class="i" d="M12 13H14M12 37H14M30 13H38M30 37H38"/></g>
+    <text x="30" y="150" class="t">TCP Port Check</text>
+    <text x="30" y="182" class="d">Bounded single-host connectivity</text><text x="30" y="204" class="d">check, not a vuln scanner.</text></g>
+
+  <g transform="translate(810,290)"><rect width="370" height="250" rx="16" fill="url(#card)" stroke="#7C8CFF" stroke-opacity="0.4"/>
+    <text x="30" y="40" class="n">06 / DATA</text>
+    <g transform="translate(30,60)"><path class="i" d="M10 4H30L42 16V46H10Z"/><path class="i" d="M30 4V16H42M18 28H34M18 37H34"/></g>
+    <text x="30" y="150" class="t">Reports &amp; History</text>
+    <text x="30" y="182" class="d">Local history and export to</text><text x="30" y="204" class="d">JSON, CSV or TXT reports.</text></g>
+</svg>

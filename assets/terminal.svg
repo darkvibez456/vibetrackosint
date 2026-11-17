@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="560" viewBox="0 0 900 560">
+  <defs>
+    <linearGradient id="tb" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#161B22"/><stop offset="1" stop-color="#1E1B4B"/></linearGradient>
+  </defs>
+  <rect width="900" height="560" rx="14" fill="#0D1117" stroke="#00E5FF" stroke-opacity="0.5"/>
+  <path d="M0 14a14 14 0 0 1 14-14h872a14 14 0 0 1 14 14v26H0z" fill="url(#tb)"/>
+  <circle cx="26" cy="20" r="6" fill="#FF5F56"/><circle cx="48" cy="20" r="6" fill="#FFBD2E"/><circle cx="70" cy="20" r="6" fill="#27C93F"/>
+  <text x="450" y="25" text-anchor="middle" font-family="Consolas, Menlo, monospace" font-size="13" fill="#8B949E">darkvibez456@termux: ~/vibetrackosint</text>
+  <g font-family="Consolas, Menlo, monospace" font-size="16">
+    <text x="30" y="76" fill="#39FF14">$ <tspan fill="#E6EDF3">python vibetrackosint.py</tspan></text>
+
+    <g opacity="0"><animate attributeName="opacity" to="1" begin="0.6s" dur="0.3s" fill="freeze"/>
+      <rect x="30" y="94" width="560" height="96" rx="6" fill="none" stroke="#00E5FF"/>
+      <text x="60" y="124" fill="#00E5FF" font-weight="700">VIBETRACK OSINT</text>
+      <text x="60" y="148" fill="#E6EDF3">NETWORK INTELLIGENCE • DNS • WEB SECURITY</text>
+      <text x="60" y="172" fill="#39FF14">Developer: darkvibez456  <tspan fill="#FFBD2E">Version: 2.0.0</tspan></text>
+    </g>
+
+    <g opacity="0"><animate attributeName="opacity" to="1" begin="1.2s" dur="0.3s" fill="freeze"/>
+      <text x="30" y="222" fill="#FFBD2E">WARNING: <tspan fill="#8B949E">Use scans only on systems you own or are authorized to assess.</tspan></text>
+      <text x="30" y="256" fill="#00E5FF" font-weight="700">MAIN MENU</text>
+    </g>
+
+    <g opacity="0"><animate attributeName="opacity" to="1" begin="1.6s" dur="0.3s" fill="freeze"/>
+      <text x="30" y="286" fill="#39FF14"> 1  <tspan fill="#E6EDF3">IP Intelligence Lookup</tspan></text>
+      <text x="30" y="310" fill="#39FF14"> 2  <tspan fill="#E6EDF3">Website Status Check</tspan></text>
+      <text x="30" y="334" fill="#39FF14"> 3  <tspan fill="#E6EDF3">DNS Record Lookup</tspan></text>
+    </g>
+    <g opacity="0"><animate attributeName="opacity" to="1" begin="2.0s" dur="0.3s" fill="freeze"/>
+      <text x="30" y="358" fill="#39FF14"> 4  <tspan fill="#E6EDF3">TCP Port Check (Single Host)</tspan></text>
+      <text x="30" y="382" fill="#39FF14"> 5  <tspan fill="#E6EDF3">SSL/TLS Certificate Check</tspan></text>
+      <text x="30" y="406" fill="#39FF14"> 7  <tspan fill="#E6EDF3">Website Security Headers Audit</tspan></text>
+    </g>
+    <g opacity="0"><animate attributeName="opacity" to="1" begin="2.4s" dur="0.3s" fill="freeze"/>
+      <text x="30" y="430" fill="#39FF14">13  <tspan fill="#E6EDF3">View Scan History</tspan></text>
+      <text x="30" y="454" fill="#39FF14">14  <tspan fill="#E6EDF3">Export Reports (JSON/CSV/TXT)</tspan></text>
+      <text x="30" y="478" fill="#39FF14"> 0  <tspan fill="#E6EDF3">Exit</tspan></text>
+    </g>
+    <g opacity="0"><animate attributeName="opacity" to="1" begin="2.9s" dur="0.2s" fill="freeze"/>
+      <text x="30" y="522" fill="#39FF14">Select option: <tspan fill="#E6EDF3">7</tspan><tspan fill="#00E5FF">▌<animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/></tspan></text>
+    </g>
+  </g>
+</svg>

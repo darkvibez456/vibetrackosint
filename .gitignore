@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+ip_recon_history.json
+*.csv
+*.txt
+!README.md
+!LICENSE
+!requirements.txt
